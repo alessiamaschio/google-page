@@ -27,6 +27,7 @@ body {
 .menu-icon {
   width: 5%;
 }
+
 .w-6 {
   width: 100%;
 }
@@ -65,8 +66,6 @@ body {
   color: rgb(23, 156, 82);
 }
 
-.main {
-}
 .search-container {
   width: 70%;
   border-radius: 3%;
@@ -93,6 +92,7 @@ body {
   padding: 5px;
   margin-right: 5px;
   margin-top: 10px;
+  color: rgb(96, 96, 96);
 }
 
 .subtitle {
@@ -111,6 +111,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  color: rgb(96, 96, 96);
 }
 
 .country {
@@ -138,4 +139,116 @@ body {
 
 .footer-nav-list-item {
   padding: 2px;
+}
+
+@media all and (min-width: 768px) {
+  .menu-text {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: -0.3rem;
+  }
+
+  .search {
+    width: 70%;
+    height: 2rem;
+  }
+  .button {
+    font-size: 0.7rem;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 25px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+
+  .footer {
+    font-size: 0.7rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .country {
+    padding: 15px 20px;
+  }
+  .footer-nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    list-style: none;
+    font-size: 0.7rem;
+    margin-right: 20px;
+  }
+
+  .footer-nav-list-2 {
+    display: flex;
+    list-style: none;
+    font-size: 0.7rem;
+  }
+
+  .footer-nav-list-item {
+    padding: 10px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0.5%;
+  }
+
+  .menu-icon {
+    width: 3%;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .search {
+    width: 50%;
+    height: 1.8rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+
+  .footer-nav-container {
+    justify-content: space-between;
+  }
+
+  .footer-nav-list {
+    padding-left: 10px;
+    font-size: 0.8rem;
+  }
+
+  .footer-nav-list-2 {
+    padding-right: 10px;
+    font-size: 0.8rem;
+  }
 }
