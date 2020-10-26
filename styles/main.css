@@ -13,7 +13,6 @@ body {
   align-items: center;
   justify-content: flex-end;
   list-style: none;
-  border: 1px solid red;
   padding: 2%;
 }
 
@@ -23,7 +22,6 @@ body {
 
 .google-menu {
   width: 60%;
-  /* border: 1px solid blue; */
 }
 
 .menu-icon {
@@ -31,17 +29,12 @@ body {
 }
 .w-6 {
   width: 100%;
-  /* border: 1px solid blue; */
 }
 
 .menu-text {
   padding: 1%;
   font-size: 0.5rem;
 }
-
-/* li {
-  border: 1px solid green;
-} */
 
 .section-container {
   display: flex;
@@ -71,13 +64,12 @@ body {
 .green {
   color: rgb(23, 156, 82);
 }
+
+.main {
+}
 .search-container {
   width: 70%;
-  border: 1px solid black;
   border-radius: 3%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .form {
@@ -85,4 +77,65 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button-container {
+  width: 50%;
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: center;
+}
+
+.button {
+  font-size: 0.5rem;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.3rem;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(245, 245, 245);
+  font-size: 0.3rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.country {
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.footer-nav-container {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.footer-nav-list {
+  display: flex;
+  list-style: none;
+  font-size: 0.1rem;
+  margin-right: 20px;
+}
+
+.footer-nav-list-2 {
+  display: flex;
+  list-style: none;
+  font-size: 0.1rem;
+}
+
+.footer-nav-list-item {
+  padding: 2px;
 }
